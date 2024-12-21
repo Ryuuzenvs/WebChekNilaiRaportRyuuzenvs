@@ -14,23 +14,21 @@ document.addEventListener("DOMContentLoaded", () => {
     // Nilai rata-rata nasional dan batas peringkat
     const nationalAverage = 800; // Rata-rata nasional total nilai dari 10 mapel
     const thresholds = {
-        "5%": 900,  // Top 5%
-        "6%": 890, //top 6%
-        "7%": 880, //top 7%
-        "8%": 870, //top 8%
-        "9%" : 860, //top 9%
+        "5%": 950,  // Top 5%
+        "6%": 930, //top 6%
+        "7%": 910, //top 7%
+        "8%": 890, //top 8%
+        "9%" : 870, //top 9%
         "10%": 850, // Top 10%
-        "15%": 800, // Top 15%
-        "20%": 750, // Top 20%
-        "25%": 700, // Top 25%
-        "30%": 650, // Top 30%
-        "35%": 600, // Top 35%
-        "40%": 550, // Top 40%
     };
+
     const kurikulumMapel = [
-        "Agama", "Pendidikan Kewarganegaraan", "Matematika", "Bahasa Indonesia", "Bahasa Inggris",
-        "Ilmu Pengetahuan Alam", "Ilmu Pengetahuan Sosial", "Seni Budaya", "Penjaskes","kedaerahan"
+        "mapel 1", "mapel 2", "mapel 3", "mapel 4", "mapel 5", 
+        "mapel 6", "mapel 7", "mapel 8", "mapel 9", "mapel 10", 
+        "mapel 11", "mapel 12", "mapel 13", "mapel 14", "mapel 15", 
+        "mapel 16"
     ];
+    
 
     // Membuat tabel pertama dengan dropdown mapel
     function createTable(id) {
