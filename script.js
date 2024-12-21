@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const nationalAverage = 800; // Rata-rata nasional total nilai dari 10 mapel
     const thresholds = {
         "5%": 900,  // Top 5%
+        "6%": 890, //top 6%
+        "7%": 880, //top 7%
+        "8%": 870, //top 8%
+        "9%" : 860, //top 9%
         "10%": 850, // Top 10%
         "15%": 800, // Top 15%
         "20%": 750, // Top 20%
